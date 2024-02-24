@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="App.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="forms\formAirline.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="forms\formAirplane.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="forms\formFlight.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="forms\formFlightOperator.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="forms\formFlightTicket.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="forms\formGate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="forms\formPassenger.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="forms\formPilot.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="forms\formRunway.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="forms\formTicket.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="App.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="forms\formAirline.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="forms\formAirplane.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="forms\formFlight.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="forms\formFlightOperator.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="forms\formFlightTicket.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="forms\formGate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="forms\formPassenger.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="forms\formPilot.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="forms\formRunway.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="forms\formTicket.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+﻿<Window x:Class="Airport.forms.formAirline"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Airport.forms"
+        mc:Ignorable="d"
+        Title="formAirline" Height="280" Width="340">
+    <Grid>
+        <Label Content="Naziv aviokompanije:" HorizontalAlignment="Left" Height="28" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtAirlineName"  TextWrapping="Wrap" Text="" Width="143" Margin="0,12,20,0" HorizontalAlignment="Right" Height="24" VerticalAlignment="Top"/>
+        <Label Content="Broj aviona:" HorizontalAlignment="Left" Height="28" Margin="10,40,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNumOfPlanes"  TextWrapping="Wrap" Text="" Width="143" Margin="0,42,20,0" HorizontalAlignment="Right" Height="24" VerticalAlignment="Top"/>
+        <Label Content="Lokacija:" HorizontalAlignment="Left" Height="28" Margin="10,70,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtLocation"  TextWrapping="Wrap" Text="" Width="143" Margin="0,72,20,0" HorizontalAlignment="Right" Height="24" VerticalAlignment="Top"/>
+        <Label Content="Broj aerodroma:" HorizontalAlignment="Left" Height="28" Margin="10,100,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtAirportServed"  TextWrapping="Wrap" Text="" Width="143" Margin="0,102,20,0" HorizontalAlignment="Right" Height="24" VerticalAlignment="Top"/>
+        <Label Content="Broj letova:" HorizontalAlignment="Left" Height="28" Margin="10,130,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtFlightsOperated"  TextWrapping="Wrap" Text="" Width="143" Margin="0,132,20,0" HorizontalAlignment="Right" Height="24" VerticalAlignment="Top"/>
+        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="28,0,0,10" VerticalAlignment="Bottom" Height="30" Width="80" Click="btnSave_Click"/>
+        <Button x:Name="btnCancel" Content="Cancel" Margin="0,0,28,10" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="80" Click="btnCancel_Click"/>
+    </Grid>
+</Window>

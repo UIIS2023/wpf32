@@ -1,0 +1,30 @@
+﻿<Window x:Class="Airport.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Airport"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="850">
+    <Grid>
+        <DataGrid x:Name="dataGridCenter" VerticalAlignment="Center" HorizontalAlignment="Center" Width="auto" Height="auto"
+                  IsReadOnly="true" AlternatingRowBackground="Aqua" CanUserAddRows="False" SelectionUnit="FullRow" SelectionMode="Single"/>
+        <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Top" Height="auto" Width="500" Orientation="Horizontal">
+            <Button x:Name="btnAirline" Content="Aviokompanije" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="100" Click="btnAirline_Click"/>
+            <Button x:Name="btnAirplane" Content="Avioni" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="100" Click="btnAirplane_Click"/>
+            <Button x:Name="btnFlight" Content="Letovi" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="100" Click="btnFlight_Click"/>
+            <Button x:Name="btnFlightOperator" Content="Operateri leta" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="100" Click="btnFlightOperator_Click"/>
+            <Button x:Name="btnFlightTicket" Content="Parovi: karta - let" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="100" Click="btnFlightTicket_Click"/>
+            <Button x:Name="btnGate" Content="Gejt" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="100" Click="btnGate_Click"/>
+            <Button x:Name="btnPassenger" Content="Putnici" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="100" Click="btnPassenger_Click"/>
+            <Button x:Name="btnPilot" Content="Piloti" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="100" Click="btnPilot_Click"/>
+            <Button x:Name="btnRunway" Content="Piste" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="100" Click="btnRunway_Click"/>
+            <Button x:Name="btnTicket" Content="Karte" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="100" Click="btnTicket_Click"/>
+        </WrapPanel>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="auto" Width="auto" Orientation="Horizontal">
+            <Button x:Name="btnAdd" Content="Dodaj" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="80" Click="btnAdd_Click"/>
+            <Button x:Name="btnChange" Content="Izmeni" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="80" Click="btnChange_Click"/>
+            <Button x:Name="btnDelete" Content="Obriši" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Right" Width="80" Click="btnDelete_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

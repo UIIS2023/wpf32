@@ -1,0 +1,20 @@
+﻿Airport
+1.0.0.0
+
+winexe
+C#
+.cs
+E:\Microsoft Visual Studio\repos\Airport\Airport\obj\Debug\net8.0-windows\
+Airport
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+E:\Microsoft Visual Studio\repos\Airport\Airport\App.xaml
+11668207161
+
+172144461294
+1991237015096
+forms\formAirline.xaml;forms\formAirplane.xaml;forms\formFlight.xaml;forms\formFlightOperator.xaml;forms\formFlightTicket.xaml;forms\formGate.xaml;forms\formPassenger.xaml;forms\formPilot.xaml;forms\formRunway.xaml;forms\formTicket.xaml;MainWindow.xaml;
+
+False
+
